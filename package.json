@@ -1,0 +1,49 @@
+{
+    "name": "@mattzgg/react-tagarea",
+    "version": "1.0.0",
+    "description": "A simple react component used to input tag like data.",
+    "main": "dist/main.js",
+    "repository": "https://github.com/mattzgg/react-tagarea.git",
+    "author": "Matthew Gong <matthew.zhigang.gong@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/plugin-proposal-class-properties": "^7.12.1",
+        "@babel/preset-env": "^7.12.11",
+        "@babel/preset-react": "^7.12.10",
+        "@storybook/addon-actions": "^6.1.11",
+        "@storybook/addon-essentials": "^6.1.11",
+        "@storybook/addon-links": "^6.1.11",
+        "@storybook/react": "^6.1.11",
+        "babel-eslint": "^10.1.0",
+        "babel-loader": "^8.2.2",
+        "eslint": "^7.16.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-config-prettier": "^7.1.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-react": "^7.21.5",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "lodash": "^4.17.20",
+        "prettier": "^2.2.1",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "styled-components": "^5.2.1",
+        "webpack": "^5.11.0",
+        "webpack-cli": "^4.2.0"
+    },
+    "peerDependencies": {
+        "lodash": ">=3.0.1",
+        "prop-types": "^15.7.2",
+        "react": ">=16.0.0",
+        "react-dom": ">=16.0.0",
+        "styled-components": ">=5.0.0"
+    },
+    "scripts": {
+        "build": "webpack --config webpack.config.js",
+        "storybook": "start-storybook -p 6006",
+        "build-storybook": "build-storybook"
+    },
+    "dependencies": {}
+}
