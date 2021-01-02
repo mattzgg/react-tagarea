@@ -1,6 +1,6 @@
 {
     "name": "@mattzgg/react-tagarea",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simple react component used to input tag like data.",
     "main": "dist/main.js",
     "repository": "https://github.com/mattzgg/react-tagarea.git",
