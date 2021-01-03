@@ -266,6 +266,7 @@ export default class Tagarea extends React.Component {
             >
                 <textarea
                     ref={this.textareaRef}
+                    id={name}
                     name={name}
                     value={text}
                     onChange={this.handleChangeText}

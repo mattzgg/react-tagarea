@@ -60,8 +60,8 @@ class Resizer extends React.Component {
     componentWillUnmount() {
         const handleEl = this.handleRef.current;
         handleEl.removeEventListener("mousedown", this.handleMouseDown);
-        document.addEventListener("mousemove", this.handleMouseMove);
-        document.addEventListener("mouseup", this.handleMouseUp);
+        document.removeEventListener("mousemove", this.handleMouseMove);
+        document.removeEventListener("mouseup", this.handleMouseUp);
     }
 
     handleMouseDown(event) {
